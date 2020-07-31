@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+	 
+	int a;
+	scanf_s("%d", &a);
+
+	if (a > 100 || a < 0) { printf("잘못입력 하셨습니다.\n"); }
+	else { 
+		if (a >= 90) { printf("A\n"); }
+		else if (a >= 80) { printf("B\n"); }
+		else if (a >= 70) { printf("C\n"); }
+		else if (a >= 60) { printf("D\n"); }
+		else { printf("F\n"); }
+
+		}
+	
+	
+}
