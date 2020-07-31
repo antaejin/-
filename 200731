@@ -30,3 +30,22 @@ int main() {
 		 }
 	}
 }
+
+
+#include <stdio.h> // 3 6 9
+
+int main() {
+
+	int g;
+	scanf_s("%d", &g);
+
+	for (int a = 1; a <= g; a++) {
+		int z = a % 10;
+		if (z == 3 || z == 6 || z == 9) {
+			printf("* ");
+		}
+		else {
+			printf("%d ", a);
+		}
+	}
+}
